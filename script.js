@@ -12,7 +12,7 @@ async function sendMessage() {
   appendMessage("AI", "Sedang berpikir...", "bot");
 
   try {
-    const response = await fetch("https://api.mks.ai/v1/chat/completions", {
+    const response = await fetch("https://api.proxyapi.dev/openai/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
